@@ -17,12 +17,16 @@ function create(){
   cp test_temp.py /Users/nikourriola/Desktop/projects/$1/tests.py
   #move into the new project directory
   cd /Users/nikourriola/Desktop/projects/$1
+  #create a virtual environment for the project
+  virtualenv $1
   git init
   git remote add origin git@github.com:nurriol2/$1.git
   touch README.md
   git add .
   git commit -m "Initial commit"
   git push -u origin master
+  #activate the virtual environment
+  source $1/bin/activate
   #open current project in atom
   atom .
 }
