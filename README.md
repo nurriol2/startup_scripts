@@ -7,7 +7,7 @@ The repo will contain template files for a basic Python based project.
 From anywhere on disk use the alias:
 `new_project your-project-name` to create the `your-project-name` repository
 
-*As of right now, t*
+*As of right now, the template files (e.g. .gitignore) are for Python projects*
 
 # TODO #
 - Add project language selection
