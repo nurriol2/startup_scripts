@@ -5,7 +5,7 @@ function create(){
   #navigate to ~ (home directory)
   cd
   #navigate to setup_scripts directory
-  cd /Users/nikourriola/Desktop/projects/setup_scripts/
+  cd /Users/nikourriola/Desktop/projects/startup_scripts/python/
   #make a new repository with specified name
   python3 make.py $1 #$1 means - first argument after calling shell script
   #adding template files
